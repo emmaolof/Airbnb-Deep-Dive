@@ -36,20 +36,20 @@ def indexPage():
     return render_template("index.html")
 
 
-@app.route("/Sumi_Maps.html")
+@app.route("/Benedicta_Visuals.html")
 def sumiPage():
     """Return the homepage."""
-    return render_template("Sumi_Maps.html")
+    return render_template("Benedicta_Visuals.html")
 
-@app.route("/Jeremy_Maps.html")
+@app.route("/Jeremy_Visuals.html")
 def jeremyPage():
     """Return the homepage."""
-    return render_template("Jeremy_Maps.html")
+    return render_template("Jeremy_Visuals.html")
 
-@app.route("/Emmanuel_Maps.html")
+@app.route("/Emmanuel_Visuals.html")
 def emmanuelPage():
     """Return the homepage."""
-    return render_template("Emmanuel_Maps.html")      
+    return render_template("Emmanuel_Visuals.html")      
 
 @app.route("/countynames")
 def names():
